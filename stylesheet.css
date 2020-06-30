@@ -1,0 +1,63 @@
+body {
+	padding: 10px;
+	text-align: center;
+}
+input[type=text] {
+	border: None;
+	border-bottom : 2px solid black;
+}
+
+
+input[type=text]:focus {
+	border: None;
+	border-bottom : 2px solid black;
+}
+
+button {
+	padding: 10px;
+	background: gray;
+}
+
+button:hover {
+	padding: 10px;
+	background: darkgray;
+	
+}
+
+* {
+  box-sizing: border-box;
+}
+/*
+This is reffered from W3Schools
+*/
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 60px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.taskComplete {
+	padding: 10px;
+	border: 1px solid green;
+	text-decoration: line-through;
+	background-color:  lightgreen;
+	
+}
+.taskIncomplete {
+	padding: 10px;
+	border: 1px solid gray;
+	text-decoration: none;
+	background-color:  #ffcccb;
+	
+}
+
+h3 {
+	display: inline;
+}
